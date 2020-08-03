@@ -4,4 +4,7 @@ body{margin:0; padding:0; background:lightgray; color: white;}
 .row:after{content="";}
 .col{display:flex; flex-direction:column;}
 .mainMenu{}
+.hd{position:absolute; top:0; }
+.ft{position:absolute; bottom:0;}
+.hd, .ft, .ct{border:solid; margin:2px;}
 p{color:blue;}
